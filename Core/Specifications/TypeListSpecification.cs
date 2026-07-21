@@ -9,7 +9,7 @@ namespace Core.Specifications
     {
         public TypeListSpecification()
         {
-            AddSelect(x => x.Name);
+            AddSelect(x => x.Type);
             ApplyDistinct();
         }
     }
